@@ -1,0 +1,38 @@
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(36, 34, 34);
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 30pxs;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(198, 213, 213);
+}
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+input{
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.add-btn{
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(10, 170, 31);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
